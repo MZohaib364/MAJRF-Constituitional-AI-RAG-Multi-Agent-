@@ -1,0 +1,11 @@
+pdfplumber
+numpy
+scikit-learn
+groq
+langgraph
+langchain-core
+chromadb
+sentence-transformers
+python-dotenv
+streamlit
+

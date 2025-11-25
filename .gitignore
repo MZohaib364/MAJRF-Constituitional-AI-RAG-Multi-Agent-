@@ -1,0 +1,4 @@
+venv/
+outputs_final/
+vector_store/
+groq.env/
