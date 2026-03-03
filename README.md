@@ -69,9 +69,14 @@ pip install -r requirements.txt
 
 ### Environment Configuration
 ```bash
-# Set up Groq API key
-echo "GROQ_API_KEY=your_groq_api_key_here" > groq.env
+# Copy the environment template
+copy .env.template groq.env
+
+# Edit groq.env and add your actual API key
+# GROQ_API_KEY=your_actual_groq_api_key_here
 ```
+
+**Important**: Never commit your actual API keys to version control. The `groq.env` file is already in `.gitignore`.
 
 ## 🎮 Usage
 
